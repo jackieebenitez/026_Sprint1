@@ -1,0 +1,18 @@
+/* Inserta tu codigo aqui */
+.example6 .navbar-brand{ 
+  background-image: url("../image/logo.png") contain no-repeat;
+  width: 35%;
+}
+section{
+	background-color: gray;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
