@@ -3,55 +3,120 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Flatness: Responsive Blog</title>
+	<!--Meta -->
 	<meta name="viewport" content="width=Device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!-- Latest compiled and minified CSS -->
+	<!-- Latest compiled and minified CSS / Bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Tipografias -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<!-- CSS -->
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-inverse navbar-static example6">
-		    <div class="container">
-		      	<div class="navbar-header">
-		        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar6">
-			          	<span class="sr-only">Toggle navigation</span>
-			          	<span class="icon-bar"></span>
-			          	<span class="icon-bar"></span>
-			          	<span class="icon-bar"></span>
-			        </button>
-		        	<a class="navbar-brand text-hide"> <img src="image/logo.png" class="img-responsive" alt="logo">Brand Text
-		        	</a>
-		      	</div>
-		      	<div id="navbar6" class="navbar-collapse collapse">
-		        	<ul class="nav navbar-nav navbar-right">
-			          	<li class="active"><a href="#">Lifestyle</a></li>
-			          	<li><a href="#">Flower</a></li>
-			          	<li><a href="#">Fashion</a></li>
-						<li><a href="#">News</a></li>			          	
-			         	<li class="dropdown">
-		            		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		            		<ul class="dropdown-menu" role="menu">
-				              	<li><a href="#">Fashion</a></li>
-				              	<li><a href="#">News</a></li>
-				              	<li><a href="#">Featurese</a></li>
-				              	<li class="divider"></li>
-				              	<li class="dropdown-header">Nav header</li>
-				              	<li><a href="#">Separated link</a></li>
-				              	<li><a href="#">One more separated link</a></li>
-		            		</ul>
-		        		</li>
-		        	</ul>
-		      </div>
-		      <!--/.nav-collapse -->
-		    </div>
-		  </nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img class="img-responsive log" src="image/logo.png">
+				</div>
+				<div class="col-md-8">
+					<nav class="nav">
+						<ul class="nav navbar-nav navbar-right">
+				          	<li><a href="#">Lifestyle</a></li>
+				          	<li><a href="#">Flower</a></li>
+				          	<li><a href="#">Fashion</a></li>
+							<li><a href="#">News</a></li>	
+							<li><a href="#">News</a></li>			          	
+		            	<ul>
+		            </nav>
+				</div>
+			</div>
+		</div>
 	</header>
 	<section>
+		<article> <!--article 1 con img de fondo y cuadro en medio -->
+			<div class="container">
+				<div class="row flor"> <!--aqui va la imagen de la flor-->
+					<div class="col-md-12">
+						<div class="cdnegro">
+							<h1 class="tx-nar text-center">Spring Came</h1>
+							<p class="info"> <em>  Holi1	- 	Holi2	-	Holi3 </em></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<img src="image/image2.jpg" class="img-responsive">
+						<div class="bgnegro">
+							<h3 class="tx-nar">Floral bla bla</h3>
+							<p class="info"> <em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea cupiditate. </em> </p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<img src="image/image3.jpg" class="img-responsive">
+						<div class="bgnegro">
+							<h3 class="tx-nar">Floral bla bla</h3>
+							<p class="info"> <em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea cupiditate. </em> </p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<img src="image/image7.jpg" class="img-responsive">
+						<div class="bgnegro">
+							<h3 class="tx-nar">Floral bla bla</h3>
+							<p class="info"> <em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea cupiditate. </em> </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article class="video visible-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<img src="image/image4.jpg" class="img-responsive">
+						<h3 class="tx-nar text-center bgnegro2">Now with flatness</h3>
+						<p class=" info text-center bgnegro2">Fecha</p>
+						<p class="bgnegro2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt unde, dolores ipsam iure nesciunt, itaque labore reprehenderit.</p>
+						<iframe src="https://player.vimeo.com/video/171147832" width="715" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="img-responsive"></iframe>
+						<p></p>
+					</div>
+					<div class="col-md-4">
+						<div>
+							<input type="text" placeholder="Search">
+						</div>
+						<div>
+							<p class="tx-nar"></p>
+							<img src="image/mujer.jpg" class="img-responsive" alt="Mujer">
+							<p></p>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ex, laboriosam. Voluptatibus nam, optio ipsum dolorum beatae eaque </p>
+						</div>
+						<nav>
+							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
 	</section>
+
+	<footer>
+		<div class="container">
+			<p></p>
+		</div>
+	</footer>
 </body>
 </html>
