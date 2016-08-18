@@ -13,28 +13,39 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<!-- CSS -->
+
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<img class="img-responsive log" src="image/logo.png">
+	<header> <!--logo+nav -->
+		<div class="container-fluid">
+			<nav class="navbar navbar-default navbar-inverse">
+				<div class="container">
+					<div class="navbar-header row">
+						<div class="col-xs-8 col-md-4">
+							<a href="#"><img src="image/logo.png" alt="Logo" class="img-responsive"></a>
+						</div>
+						<div class="col-xs-4 col-md-8">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+								<span class="sr-only">Menu</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse pull-right" id="navbar-1">
+								<ul class="nav navbar-nav">
+									<li><a href="#"><em>LIFESTYLE</em></a></li>
+									<li><a href="#"><em>FLOWERS</em></a></li>
+									<li><a href="#"><em>FASHION</em></a></li>
+									<li><a href="#"><em>NEWS</em></a></li>
+									<li><a href="#"><em>FEATURES</em></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-8">
-					<nav class="nav">
-						<ul class="nav navbar-nav navbar-right">
-				          	<li><a href="#">Lifestyle</a></li>
-				          	<li><a href="#">Flower</a></li>
-				          	<li><a href="#">Fashion</a></li>
-							<li><a href="#">News</a></li>	
-							<li><a href="#">News</a></li>			          	
-		            	<ul>
-		            </nav>
-				</div>
-			</div>
+			</nav>
 		</div>
 	</header>
 	<section>
@@ -43,80 +54,80 @@
 				<div class="row flor"> <!--aqui va la imagen de la flor-->
 					<div class="col-md-12">
 						<div class="cdnegro">
-							<h1 class="tx-nar text-center">Spring Came</h1>
-							<p class="info"> <em>  Holi1	- 	Holi2	-	Holi3 </em></p>
+							<h1 class="tx-nar1 text-center">Spring Came</h1>
+							<p class="info text-center"> <em>  Life	- Amanda Ray - March 2016 </em></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</article>
 
-		<article>
+		<article> <!--article 2 con 3 cuadros con flores y texto -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 text-center">
 						<img src="image/image2.jpg" class="img-responsive">
 						<div class="bgnegro">
-							<h3 class="tx-nar">Floral bla bla</h3>
-							<p class="info"> <em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea cupiditate. </em> </p>
+							<h3 class="tx-nar">Floral Fragances</h3>
+							<p class="info"> <em> Life Amanda Ray 10th March 2015 </em> </p>
 						</div>
 					</div>
 					<div class="col-md-4 text-center">
 						<img src="image/image3.jpg" class="img-responsive">
 						<div class="bgnegro">
-							<h3 class="tx-nar">Floral bla bla</h3>
-							<p class="info"> <em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea cupiditate. </em> </p>
+							<h3 class="tx-nar">Now with Flatness</h3>
+							<p class="info"> <em> News Amanda Ray 10th March 2015 </em> </p>
 						</div>
 					</div>
 					<div class="col-md-4 text-center">
 						<img src="image/image7.jpg" class="img-responsive">
 						<div class="bgnegro">
 							<h3 class="tx-nar">Floral bla bla</h3>
-							<p class="info"> <em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea cupiditate. </em> </p>
+							<p class="info"> <em> Life Amanda Ray 10th March 2015 </em> </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</article>
 
-		<article class="video visible-lg">
+		<article class="video"> <!--article 3 con "section" de video y "aside" -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
-						<img src="image/image4.jpg" class="img-responsive">
-						<h3 class="tx-nar text-center bgnegro2">Now with flatness</h3>
-						<p class=" info text-center bgnegro2">Fecha</p>
-						<p class="bgnegro2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt unde, dolores ipsam iure nesciunt, itaque labore reprehenderit.</p>
-						<iframe src="https://player.vimeo.com/video/171147832" width="715" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="img-responsive"></iframe>
-						<p></p>
+						<div class="bgnegro2">
+							<img src="image/image4.jpg" class="img-responsive">
+							<h3 class="tx-nar text-center">Now with flatness</h3>
+							<p class=" info text-center"><em><small>News Amanda Ray 10th March 2015</em></small></p>
+							<p class="bgnegro2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quam dolore culpa reiciendis tempore dicta obcaecati, amet dolor ea voluptates? Praesentium tempore ipsa quod commodi, animi quis aut? Blanditiis, corrupti.</p>
+							<iframe src="https://player.vimeo.com/video/171147832" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ratione praesentium omnis eveniet commodi perspiciatis, sit magni aspernatur necessitatibus veniam delectus. Veritatis quasi vel libero sed quo. Animi blanditiis, quae.</p>
+						</div>
 					</div>
-					<div class="col-md-4">
-						<div>
+					<div class="col-md-4 visible-lg">
+						<div class="bgnegro search text-center img-rounded">
 							<input type="text" placeholder="Search">
 						</div>
-						<div>
-							<p class="tx-nar"></p>
+						<div class="bgnegro">
+							<p class="tx-nar info text-center">About me</p>
 							<img src="image/mujer.jpg" class="img-responsive" alt="Mujer">
 							<p></p>
 							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ex, laboriosam. Voluptatibus nam, optio ipsum dolorum beatae eaque </p>
-						</div>
-						<nav>
-							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-						</div>
+							<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-facebook-square img-circle" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-facebook-square img-circle" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-facebook-square img-circle" aria-hidden="true"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</article>
 	</section>
-
-	<footer>
-		<div class="container">
-			<p></p>
+	<footer> <!--footer-->
+		<div class="container text-center">
+			<p>Made by Squad 6</p>
 		</div>
 	</footer>
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
